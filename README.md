@@ -1,7 +1,7 @@
 # Deep Research Skill — 博士级深度研究启动流程
 
 > 从零构建新领域完整研究基础设施的系统化方法论  
-> 基于"Photonic-Amplifier"项目实践（审计评分 8.90/10）抽象  
+> 基于博士级深度研究参考项目实践（审计评分 8.90/10）抽象  
 > Version 1.0.0
 
 ---
@@ -21,7 +21,7 @@ research-skill/
 ├── CLAUDE.md              # Skill定义（触发词·原则·执行指令）
 ├── AUDIT-GUIDE.md          # 12维深度审计策略（核心资产）
 ├── CHECKLIST.md            # 各阶段快速检查清单
-├── METHODOLOGY.md          # 完整方法论（含Photonic-Amplifier案例）
+├── METHODOLOGY.md          # 完整方法论（含参考案例）
 ├── README.md               # 本文件
 └── TEMPLATES/
     ├── latexify.ps1         # LaTeX格式批量转换脚本
@@ -71,12 +71,8 @@ research-skill/
 
 ## 案例参考
 
-完整案例：https://github.com/zxqcreations/Photonic-Amplifier
-- 16个专题文档（~200 KB Markdown）
-- 3个已验证Python仿真脚本
-- 审计评分：8.90/10（天花板~9.0）
-- 从初始6.03到最终8.90：3阶段19项系统改进
+本skill的方法论来自于一个完整的博士级深度研究参考项目（审计评分 8.90/10），该项目展示了从初始6.03到最终8.90的3阶段19项系统改进过程。
 
 ---
 
-*本skill基于2026年7月完成的Photonic-Amplifier项目实践总结。*
+*本skill基于2026年7月完成的博士级深度研究参考项目实践总结。*

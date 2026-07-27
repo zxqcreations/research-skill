@@ -8,7 +8,7 @@
 
 ## Overview
 
-This skill implements a rigorous, audit-driven methodology for conducting PhD-level deep research on any new scientific or engineering topic. It abstracts the complete workflow demonstrated in the "Photonic-Amplifier" project (audit score: 8.90/10).
+This skill implements a rigorous, audit-driven methodology for conducting PhD-level deep research on any new scientific or engineering topic. It abstracts the complete workflow demonstrated in a reference project achieving an audit score of 8.90/10.
 
 The methodology proceeds through 5 phases:
 0. **Requirements Definition** — scope, dimensions, deliverables
