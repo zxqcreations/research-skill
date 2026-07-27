@@ -28,6 +28,8 @@ The methodology proceeds through 5 phases:
 6. **代码必须跑通** — All simulation scripts must be executed and produce physically reasonable output
 7. **保留所有中间产物** — Search materials, audit reports, improvement plans → all archived
 8. **可追溯性** — Key values cite sources; DOIs provided; "measured" vs "modeled" vs "general knowledge" distinguished
+9. **LaTeX必须逐字审计** — NEVER use scripts for formula conversion; ALWAYS manually read line-by-line. Scripts miss context (math mode vs text, partial conversions, mixed notations). Every edit must be a conscious human decision.
+10. **引用必须可验证** — EVERY citation must be independently verifiable via DOI resolution or Google Scholar search. Fabricated references = immediate removal. DOI errors = immediate correction. No exceptions.
 
 ## Execution Instructions
 
