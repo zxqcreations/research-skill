@@ -1,4 +1,4 @@
-# Deep Research Skill — 博士级深度研究启动流程
+# Auditable Research Skill — 博士级深度研究启动流程
 
 > 从零构建新领域完整研究基础设施的系统化方法论  
 > 5阶段流程 · 12维审计 · 可复现标准 · 参考实践评分 8.90/10  
@@ -74,21 +74,21 @@ research-skill/
 ### 用户级安装（推荐，所有项目可用）
 
 ```bash
-git clone https://github.com/zxqcreations/research-skill.git ~/.claude/skills/deep-research
+git clone https://github.com/zxqcreations/research-skill.git ~/.claude/skills/auditable-research
 ```
 
 ### 项目级安装（仅当前项目）
 
 ```bash
-git clone https://github.com/zxqcreations/research-skill.git .claude/skills/deep-research
+git clone https://github.com/zxqcreations/research-skill.git .claude/skills/auditable-research
 ```
 
-安装后重启 Claude Code 会话，skill 将自动被识别。在对话中输入 `/deep-research` 或描述研究需求即可触发。
+安装后重启 Claude Code 会话，skill 将自动被识别。在对话中输入 `/auditable-research` 或描述研究需求即可触发。
 
 ### 目录结构要求
 
 ```
-~/.claude/skills/deep-research/   # 或 .claude/skills/deep-research/
+~/.claude/skills/auditable-research/   # 或 .claude/skills/auditable-research/
 ├── CLAUDE.md          # [必需] Skill主文件
 ├── AUDIT-GUIDE.md     # 12维审计策略参考
 ├── CHECKLIST.md       # 各阶段检查清单
@@ -102,13 +102,13 @@ git clone https://github.com/zxqcreations/research-skill.git .claude/skills/deep
 
 ### 触发方式
 
-- **命令触发：** `/deep-research` 后跟研究课题描述
+- **命令触发：** `/auditable-research` 后跟研究课题描述
 - **关键词触发：** 提到"博士课题""研究基础设施""系统调研""新领域"等关键词时自动加载
 
 ### 使用示例
 
 ```
-/deep-research 以[材料]的[器件]为研究对象，按设计原理、工艺、应用、
+/auditable-research 以[材料]的[器件]为研究对象，按设计原理、工艺、应用、
 全球课题组为核心路线，按博士课题标准构建完整研究基础设施。
 要求：详细完善、公式完整推导、不图快、不省token。
 ```

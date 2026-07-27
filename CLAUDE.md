@@ -1,7 +1,7 @@
-# CLAUDE.md — Deep Research Skill
+# CLAUDE.md — Auditable Research Skill
 
 ## Metadata
-- **Name:** deep-research
+- **Name:** auditable-research
 - **Version:** 1.0.0
 - **Description:** PhD-level deep research launch workflow — build a complete research infrastructure for any new scientific or engineering domain from scratch. Includes 5-phase methodology, 12-dimension audit framework, reproducible simulation code, and comprehensive deliverable packaging.
 - **Triggers:** User proposes a new research topic · needs systematic literature survey · building research infrastructure · writing PhD proposal · auditing existing research
