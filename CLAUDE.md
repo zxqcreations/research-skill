@@ -3,12 +3,12 @@
 ## Metadata
 - **Name:** deep-research
 - **Version:** 1.0.0
-- **Description:** 博士级深度研究启动流程——从零构建新领域的完整研究基础设施。含5阶段方法论、12维审计策略、可复现仿真代码、综合交付物打包。
-- **Triggers:** 用户提出新研究课题·需要系统文献调研·构建研究基础设施·撰写博士开题报告·审计已有研究
+- **Description:** PhD-level deep research launch workflow — build a complete research infrastructure for any new scientific or engineering domain from scratch. Includes 5-phase methodology, 12-dimension audit framework, reproducible simulation code, and comprehensive deliverable packaging.
+- **Triggers:** User proposes a new research topic · needs systematic literature survey · building research infrastructure · writing PhD proposal · auditing existing research
 
 ## Overview
 
-This skill implements a rigorous, audit-driven methodology for conducting PhD-level deep research on any new scientific or engineering topic. It abstracts the complete workflow demonstrated in a reference project achieving an audit score of 8.90/10.
+This skill provides a rigorous, audit-driven methodology for conducting PhD-level deep research on any scientific or engineering topic. The methodology has been validated on a reference project achieving an audit score of 8.90/10 from an initial 6.03/10 through systematic iterative improvement.
 
 The methodology proceeds through 5 phases:
 0. **Requirements Definition** — scope, dimensions, deliverables

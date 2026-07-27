@@ -1,7 +1,7 @@
 # Deep Research Skill — 博士级深度研究启动流程
 
 > 从零构建新领域完整研究基础设施的系统化方法论  
-> 基于博士级深度研究参考项目实践（审计评分 8.90/10）抽象  
+> 5阶段流程 · 12维审计 · 可复现标准 · 参考实践评分 8.90/10  
 > Version 1.0.0
 
 ---
@@ -69,10 +69,56 @@ research-skill/
 综合评分 = 0.30×科学性 + 0.25×完整性 + 0.25×详实性 + 0.20×真实性
 （维度1/6-12为修正因子，每个问题扣0.01-0.05分）
 
-## 案例参考
+## 安装
 
-本skill的方法论来自于一个完整的博士级深度研究参考项目（审计评分 8.90/10），该项目展示了从初始6.03到最终8.90的3阶段19项系统改进过程。
+### 用户级安装（推荐，所有项目可用）
 
----
+```bash
+git clone https://github.com/zxqcreations/research-skill.git ~/.claude/skills/deep-research
+```
 
-*本skill基于2026年7月完成的博士级深度研究参考项目实践总结。*
+### 项目级安装（仅当前项目）
+
+```bash
+git clone https://github.com/zxqcreations/research-skill.git .claude/skills/deep-research
+```
+
+安装后重启 Claude Code 会话，skill 将自动被识别。在对话中输入 `/deep-research` 或描述研究需求即可触发。
+
+### 目录结构要求
+
+```
+~/.claude/skills/deep-research/   # 或 .claude/skills/deep-research/
+├── CLAUDE.md          # [必需] Skill主文件
+├── AUDIT-GUIDE.md     # 12维审计策略参考
+├── CHECKLIST.md       # 各阶段检查清单
+├── METHODOLOGY.md     # 完整5阶段方法论
+├── README.md          # 本文件
+└── TEMPLATES/         # 文档模板
+    └── master-overview-template.md
+```
+
+## 使用
+
+### 触发方式
+
+- **命令触发：** `/deep-research` 后跟研究课题描述
+- **关键词触发：** 提到"博士课题""研究基础设施""系统调研""新领域"等关键词时自动加载
+
+### 使用示例
+
+```
+/deep-research 以[材料]的[器件]为研究对象，按设计原理、工艺、应用、
+全球课题组为核心路线，按博士课题标准构建完整研究基础设施。
+要求：详细完善、公式完整推导、不图快、不省token。
+```
+
+Skill 将自动执行5阶段流程：需求定义→广度搜索→结构化撰写→多维审计→迭代改进→打包交付。
+
+### 配合审计使用
+
+在研究文档撰写完成后，可单独触发审计：
+
+```
+请按12维审计策略审计我刚写的文档，输出结构化审计报告和改进优先级。
+```
